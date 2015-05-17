@@ -22,7 +22,8 @@
 
     <!-- Add your site or application content here -->
     <div ng-include="'views/navbar.html'" ng-controller="NavigationController"></div>
-    
+    <!-- alternative method creating a custom directive -->
+    <!-- <navbar></navbar> -->
 
     <!-- Main content that the ng-view loads -->
     <div class="container">
@@ -64,6 +65,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/edges.js"></script>
         <script src="scripts/controllers/navigation.js"></script>
+        <script src-"scripts/directives/navbar.js"></script>
         <!-- endbuild -->
 </body>
 </html>
